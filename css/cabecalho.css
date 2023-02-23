@@ -1,0 +1,38 @@
+.cabecalho {
+    color: var(--branco);
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: .75rem 0;
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+
+    /*position: absolute;
+    *Faz com que o elemento “saia” da hierarquia estabelecida pelo HTML – 
+    *na prática, ele é filho da página e não de um elemento qualquer no HTML definido. 
+    *Assim, é possível posicionarmos esse elemento em qualquer lugar da página,
+    *independentemente do que temos lá.
+    *Isso pode ser útil em casos que precisamos posicionar um alerta em nossa página, por exemplo, e não queremos “quebrar” o layout.
+    */
+    position: absolute;
+}
+.cabecalho__logo {
+    margin-bottom: 1rem; /*rem = medida de referência é a raiz, o root do projeto*/
+}
+.cabecalho__navegacao {
+    text-align: center;
+}
+.cabecalho__link {
+    font-size: 1.1rem;
+
+    display: inline-block;
+
+    margin-right: .7rem;
+    margin-bottom: 1.25rem;
+    margin-left: .7rem;
+}
