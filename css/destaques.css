@@ -28,6 +28,7 @@
     xvw = Ocupa xvw da largura da tela e é especificamente relacionada à largura da tela (em pixel).
     */
     width: 100vw; 
+    max-width: 600px; /*mesmo que a ecrã fique maior a imagem erá no máximo este tamanho*/
 
     box-shadow: 0 2px 10px 5px #00000020;
 

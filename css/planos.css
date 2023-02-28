@@ -1,5 +1,5 @@
 .planos {
-    background-color: var(--cinza-claro);
+    background-color: var(--cinza-medio);
     
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -94,4 +94,10 @@
 
 .cartao__botao--mega {
     border-color: var(--planos-cartao-mega);
+}
+
+@media screen and (min-width: 768px){
+    .cartao {
+        max-width: 400px;
+    }
 }
